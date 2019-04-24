@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Start Running:customerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Test is Success:customerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[<a href=' D:\MavenLiveProject\ecommerce\src\main\java\com\durgasoft\ecommerce\passedScreens\customerRegistration22_04_2019_02_25_37.png'><img src=' D:\MavenLiveProject\ecommerce\src\main\java\com\durgasoft\ecommerce\passedScreens\customerRegistration22_04_2019_02_25_37.png'height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69209" started-at="2019-04-22T08:54:35Z" finished-at="2019-04-22T08:55:44Z">
+    <groups>
+    </groups>
+    <test name="testng.xml" duration-ms="69209" started-at="2019-04-22T08:54:35Z" finished-at="2019-04-22T08:55:44Z">
+      <class name="com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3]" name="beforeTest" is-config="true" duration-ms="36710" started-at="2019-04-22T08:54:35Z" finished-at="2019-04-22T08:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3]" name="startReport" is-config="true" duration-ms="38" started-at="2019-04-22T08:55:12Z" finished-at="2019-04-22T08:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration.customerRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="customerRegistration()[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3]" name="customerRegistration" duration-ms="25418" started-at="2019-04-22T08:55:12Z" finished-at="2019-04-22T08:55:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start Running:customerRegistration]]>
+            </line>
+            <line>
+              <![CDATA[Test is Success:customerRegistration]]>
+            </line>
+            <line>
+              <![CDATA[<a href=' D:\MavenLiveProject\ecommerce\src\main\java\com\durgasoft\ecommerce\passedScreens\customerRegistration22_04_2019_02_25_37.png'><img src=' D:\MavenLiveProject\ecommerce\src\main\java\com\durgasoft\ecommerce\passedScreens\customerRegistration22_04_2019_02_25_37.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerRegistration -->
+        <test-method status="PASS" signature="endofReport(org.testng.ITestResult)[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3]" name="endofReport" is-config="true" duration-ms="1" started-at="2019-04-22T08:55:38Z" finished-at="2019-04-22T08:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerRegistration status=SUCCESS method=TC001_CustomerRegistration.customerRegistration()[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3] output=Test Start Running:customerRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endofReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration@6b9651f3]" name="closeBrowser" is-config="true" duration-ms="6699" started-at="2019-04-22T08:55:38Z" finished-at="2019-04-22T08:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration -->
+    </test> <!-- testng.xml -->
+  </suite> <!-- Suite -->
+</testng-results>

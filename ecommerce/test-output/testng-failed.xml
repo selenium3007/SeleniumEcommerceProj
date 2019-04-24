@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.durgasoft.ecommerce.listeners.Listeners"/>
+    <listener class-name="com.durgasoft.ecommerce.listeners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="testng.xml(failed)">
+    <classes>
+      <class name="com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration">
+        <methods>
+          <include name="customerRegistration"/>
+          <include name="closeBrowser"/>
+          <include name="startReport"/>
+          <include name="endofReport"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration -->
+    </classes>
+  </test> <!-- testng.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->

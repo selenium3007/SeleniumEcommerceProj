@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.durgasoft.ecommerce.listeners.Listeners"></listener>
+<listener class-name="com.durgasoft.ecommerce.listeners.RetryListener"></listener>
+</listeners>
+  <test thread-count="5" name="testng.xml">
+    <classes>
+      <class name="com.durgasoft.ecommerce.homePage.TC001_CustomerRegistration"/>
+    </classes>
+  </test> <!-- testng.xml -->
+</suite> <!-- Suite -->
